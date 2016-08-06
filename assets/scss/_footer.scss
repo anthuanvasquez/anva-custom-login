@@ -1,0 +1,21 @@
+.login-footer {
+	margin: auto;
+	padding: $padding 0;
+	width: $login__width;
+	
+	&__copyrights {
+		color: $login__font-color;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	&__link {
+		color: $color__text;
+		font-weight: 700;
+		text-decoration: none;
+
+		&:hover {
+			color: saturate($color__primary, 5%);
+		}
+	}
+}

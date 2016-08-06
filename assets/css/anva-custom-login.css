@@ -1,0 +1,151 @@
+body,
+html {
+  background-color: #DDD;
+}
+
+body.login input[type="text"],
+body.login input[type="password"] {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+body.login .message,
+body.login #login_error {
+  background-color: #00A0D2;
+  border-left: 0;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin-left: 0;
+  padding: 12px;
+}
+
+body.login #login_error {
+  background-color: #DC3235;
+}
+
+body.login #login_error a {
+  color: #fff;
+}
+
+body.login .button-primary {
+  background: #00A0D2;
+  background-image: none;
+  border-color: #0081a9;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+body.login .button-primary.button-large {
+  height: auto;
+  font-weight: bold;
+  line-height: normal;
+  padding: 10px 20px;
+}
+
+body.login .button-primary.focus, body.login .button-primary.hover, body.login .button-primary:focus, body.login .button-primary:hover {
+  background: #008db9;
+  border-color: #0081a9;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+body.login div#login {
+  width: 380px;
+}
+
+body.login div#login h1 {
+  margin-bottom: 20px;
+}
+
+body.login div#login h1 a {
+  background-size: 200px 100px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #555D66;
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  height: 100px;
+  line-height: 1.3em;
+  margin: 0 auto;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  text-decoration: none;
+  text-indent: -9999px;
+  width: 200px;
+}
+
+body.login div#login form {
+  margin-top: 0;
+}
+
+body.login div#login form#loginform {
+  background-color: #fff;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-top: 0;
+  padding: 20px;
+}
+
+body.login div#login form#loginform input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]) {
+  margin: 5px 0 15px 0;
+}
+
+body.login div#login p#nav {
+  background-color: #f9f9f9;
+  border: 1px solid #DDD;
+  border-top: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+body.login div#login p#nav a {
+  color: #555D66;
+  font-weight: bold;
+}
+
+body.login div#login p#backtoblog {
+  text-align: center;
+}
+
+body.login div#login p label {
+  color: #555D66;
+  display: block;
+}
+
+.login-footer {
+  margin: auto;
+  padding: 20px 0;
+  width: 380px;
+}
+
+.login-footer__copyrights {
+  color: #2D2E2f;
+  font-weight: normal;
+  text-align: center;
+}
+
+.login-footer__link {
+  color: #555D66;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login-footer__link:hover {
+  color: #00a0d2;
+}
+
+/*# sourceMappingURL=anva-custom-login.css.map */
