@@ -18,8 +18,8 @@ function anva_custom_login_styles() {
  */
 function anva_custom_login_textdomain() {
 	load_plugin_textdomain(
-		'anva-foodlist',
+		'anva-custom-login',
 		false,
-		dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+		dirname( plugin_basename( __FILE__ ) ) . '/languages'
 	);
 }
