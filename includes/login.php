@@ -30,7 +30,7 @@ function anva_custom_login_footer() {
 	
 	printf(
 		'<div class="login-footer"><p class="login-footer__copyrights">&copy %1$s %2$s %3$s.</p></div>',
-		date('Y'),
+		date( 'Y' ),
 		apply_filters( 'anva_custom_login_author', sprintf( '<a class="login-footer__link" href="%1$s">%2$s</a>', esc_url( $url ), esc_html( $author ) ) ),
 		esc_html__( 'All Rights Reserved' , 'anva-custom-login' )
 	);
