@@ -6,7 +6,7 @@
  * @since  1.0.0
  */
 function anva_custom_login_logo_url() {
-	return home_url( '/' );
+	return apply_filters( 'anva_custom_login_logo_url', home_url( '/' ) );
 }
 
 /**
@@ -15,7 +15,7 @@ function anva_custom_login_logo_url() {
  * @since  1.0.0
  */
 function anva_custom_login_logo_url_title() {
-	return get_bloginfo( 'name' );
+	return apply_filters( 'anva_custom_login_logo_title', get_bloginfo( 'name' ) );
 }
 
 /**
